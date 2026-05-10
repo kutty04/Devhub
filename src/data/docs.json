@@ -1,0 +1,124 @@
+{
+  "docs": [
+    {
+      "title": "React Hooks - useState",
+      "url": "https://react.dev/reference/react/useState",
+      "category": "React",
+      "snippet": "useState is a React Hook that lets you add state to functional components. Returns an array with the current state value and a function to update it."
+    },
+    {
+      "title": "React Hooks - useEffect",
+      "url": "https://react.dev/reference/react/useEffect",
+      "category": "React",
+      "snippet": "useEffect is a React Hook that lets you perform side effects in function components. It accepts a function and a dependency array."
+    },
+    {
+      "title": "React Hooks - useContext",
+      "url": "https://react.dev/reference/react/useContext",
+      "category": "React",
+      "snippet": "useContext is a React Hook that lets you read and subscribe to context from your component. Returns the context value passed to the nearest Provider."
+    },
+    {
+      "title": "React Conditional Rendering",
+      "url": "https://react.dev/learn/conditional-rendering",
+      "category": "React",
+      "snippet": "In React, you can create distinct components that encapsulate behavior you need. Then, you can render only some of them, depending on the state of your application."
+    },
+    {
+      "title": "React Lists and Keys",
+      "url": "https://react.dev/learn/rendering-lists",
+      "category": "React",
+      "snippet": "Often you'll want to display multiple similar components from a collection of data. You can use JavaScript array methods to manipulate an array of data."
+    },
+    {
+      "title": "Express Middleware",
+      "url": "https://expressjs.com/en/guide/using-middleware.html",
+      "category": "Node.js",
+      "snippet": "Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle."
+    },
+    {
+      "title": "Express Routing",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "category": "Node.js",
+      "snippet": "Routing refers to how an application's endpoints respond to client requests. You define routes using methods of the Express app object that correspond to HTTP methods."
+    },
+    {
+      "title": "Node.js fs Module",
+      "url": "https://nodejs.org/api/fs.html",
+      "category": "Node.js",
+      "snippet": "The fs module provides an API for interacting with the file system. You can read, write, update, delete, and rename files using this module."
+    },
+    {
+      "title": "Node.js Async/Await",
+      "url": "https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/",
+      "category": "Node.js",
+      "snippet": "Async functions allow you to write promise-based code as if it were synchronous. The await keyword pauses execution until the promise resolves."
+    },
+    {
+      "title": "Node.js Events",
+      "url": "https://nodejs.org/api/events.html",
+      "category": "Node.js",
+      "snippet": "Much of the Node.js core API is built around an idiomatic asynchronous event-driven architecture. Objects that emit events are instances of EventEmitter class."
+    },
+    {
+      "title": "Supabase Authentication",
+      "url": "https://supabase.com/docs/guides/auth",
+      "category": "Supabase",
+      "snippet": "Supabase provides built-in authentication with support for email/password, passwordless sign-ins, OAuth providers, and more. Use the Supabase client library to handle authentication."
+    },
+    {
+      "title": "Supabase Realtime",
+      "url": "https://supabase.com/docs/guides/realtime",
+      "category": "Supabase",
+      "snippet": "Supabase Realtime allows you to subscribe to database changes in real-time. Listen for INSERT, UPDATE, and DELETE events on your tables using WebSockets."
+    },
+    {
+      "title": "Supabase Storage",
+      "url": "https://supabase.com/docs/guides/storage",
+      "category": "Supabase",
+      "snippet": "Supabase Storage is a solution for managing user-generated content. Upload, download, and delete files from your Supabase storage buckets."
+    },
+    {
+      "title": "Supabase PostgreSQL",
+      "url": "https://supabase.com/docs/guides/database",
+      "category": "Supabase",
+      "snippet": "Supabase is a hosted PostgreSQL database with real-time capabilities. Use SQL queries or the JavaScript client to interact with your database."
+    },
+    {
+      "title": "Supabase RLS Policies",
+      "url": "https://supabase.com/docs/guides/auth/row-level-security",
+      "category": "Supabase",
+      "snippet": "Row Level Security enables you to write PostgreSQL policies that restrict which rows users can access. Essential for multi-tenant applications."
+    },
+    {
+      "title": "JavaScript Array Methods",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+      "category": "JavaScript",
+      "snippet": "Arrays have built-in methods like map(), filter(), reduce(), find(), forEach(). These functional programming methods are essential for data manipulation."
+    },
+    {
+      "title": "JavaScript Promises",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+      "category": "JavaScript",
+      "snippet": "Promises represent the eventual completion or failure of an asynchronous operation. Chain with .then() or use with async/await."
+    },
+    {
+      "title": "JavaScript Template Literals",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals",
+      "category": "JavaScript",
+      "snippet": "Template literals are string literals that allow embedded expressions. Use backticks and ${} for interpolation instead of concatenation."
+    },
+    {
+      "title": "JavaScript Destructuring",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+      "category": "JavaScript",
+      "snippet": "Destructuring allows you to unpack values from objects and arrays. Use curly braces for objects and square brackets for arrays."
+    },
+    {
+      "title": "JavaScript Arrow Functions",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+      "category": "JavaScript",
+      "snippet": "Arrow functions provide a concise syntax for function expressions. They don't have their own 'this' binding and are perfect for callbacks."
+    }
+  ]
+}

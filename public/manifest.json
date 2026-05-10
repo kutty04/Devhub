@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "DevHub",
+  "version": "1.0.0",
+  "description": "API vault, snippets, docs, and AI assistant for developers",
+  "icons": {
+    "16": "logo16.png",
+    "48": "logo48.png",
+    "128": "logo128.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "alarms",
+    "notifications",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://api.groq.com/*",
+    "https://api.vercel.com/*",
+    "https://api.github.com/*",
+    "https://api.render.com/*",
+    "https://api.netlify.com/*"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+D",
+        "mac": "Command+Shift+D"
+      },
+      "description": "Open DevHub Dashboard"
+    }
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "logo16.png",
+      "48": "logo48.png",
+      "128": "logo128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
